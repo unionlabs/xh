@@ -14,6 +14,10 @@ keywords = ["http"]
 categories = ["command-line-utilities"]
 exclude = ["assets/xhs", "assets/xhs.1.gz"]
 
+[lib]
+path = "src/main.rs"
+crate-type = ["rlib"]
+
 [dependencies]
 anyhow = "1.0.38"
 brotli = { version = "3.3.0", default-features = false, features = ["std"] }

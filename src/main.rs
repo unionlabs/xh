@@ -1,21 +1,21 @@
 #![allow(clippy::bool_assert_comparison)]
-mod auth;
-mod buffer;
-mod cli;
-mod decoder;
-mod download;
-mod formatting;
-mod middleware;
-mod nested_json;
-mod netrc;
-mod printer;
-mod redacted;
-mod redirect;
-mod request_items;
-mod session;
-mod to_curl;
-mod utils;
-mod vendored;
+pub mod auth;
+pub mod buffer;
+pub mod cli;
+pub mod decoder;
+pub mod download;
+pub mod formatting;
+pub mod middleware;
+pub mod nested_json;
+pub mod netrc;
+pub mod printer;
+pub mod redacted;
+pub mod redirect;
+pub mod request_items;
+pub mod session;
+pub mod to_curl;
+pub mod utils;
+pub mod vendored;
 
 use std::env;
 use std::fs::File;
